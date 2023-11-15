@@ -7,15 +7,22 @@ import styles from "./story1.module.scss";
 import data from "../../data/story1.json";
 import BtnNext from "../components/BtnNext/BtnNext";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
+
   const [currentScene, setCurrentScene] = useState(0);
   const [selectedResponse, setSelecteResponse] = useState(null);
   const [showChoices, setShowChoices] = useState(true);
   const changeScene = () => {
-    setShowChoices(true);
-    setCurrentScene(currentScene + 1);
-    setSelecteResponse(null);
+    if (currentScene < data.story.length - 1) {
+      setShowChoices(true);
+      setCurrentScene(currentScene + 1);
+      setSelecteResponse(null);
+    } else {
+      router.push("/story2");
+    }
   };
   const handleChoiceClick = (response) => {
     setSelecteResponse(response);
