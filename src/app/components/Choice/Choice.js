@@ -1,4 +1,4 @@
 import styles from "./style.module.scss";
-export default function Choice() {
-  return <div>Choice</div>;
+export default function Choice({ choice }) {
+  return <h1></h1>;
 }
