@@ -15,11 +15,17 @@ export default function Home() {
   const [currentScene, setCurrentScene] = useState(0);
   const [selectedResponse, setSelecteResponse] = useState(null);
   const [showChoices, setShowChoices] = useState(true);
+  const [isBtnShown, setIsBtnShown] = useState(false);
   const changeScene = () => {
     if (currentScene < data.story.length - 1) {
       setShowChoices(true);
       setCurrentScene(currentScene + 1);
       setSelecteResponse(null);
+      if (data.story[currentScene + 1].choices) {
+        setIsBtnShown(false);
+      } else {
+        setIsBtnShown(true);
+      }
     } else {
       router.push("/story2");
     }
@@ -27,6 +33,7 @@ export default function Home() {
   const handleChoiceClick = (response) => {
     setSelecteResponse(response);
     setShowChoices(false);
+    setIsBtnShown(true);
     console.log(response);
   };
 
@@ -39,7 +46,7 @@ export default function Home() {
           handleChoiceClick={handleChoiceClick}
         />
       )}
-      <BtnNext onClick={() => changeScene()} />
+      <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
     </div>
   );
 }
