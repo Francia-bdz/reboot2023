@@ -11,20 +11,22 @@ import { useState } from "react";
 export default function Home() {
   const [currentScene, setCurrentScene] = useState(0);
   const [selectedResponse, setSelecteResponse] = useState(null);
+  const [showChoices, setShowChoices] = useState(true);
   const changeScene = () => {
-    console.log("test");
+    setShowChoices(true);
     setCurrentScene(currentScene + 1);
     setSelecteResponse(null);
   };
   const handleChoiceClick = (response) => {
     setSelecteResponse(response);
+    setShowChoices(false);
     console.log(response);
   };
 
   return (
     <div className={styles.storyContainer}>
       <Scene scene={data.story[currentScene]} response={selectedResponse} />
-      {data.story[currentScene].choices && (
+      {data.story[currentScene].choices && showChoices && (
         <Choices
           choices={data.story[currentScene].choices}
           handleChoiceClick={handleChoiceClick}
