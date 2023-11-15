@@ -4,7 +4,7 @@ export default function Choices({ choices }) {
   return (
     <div>
       {choices.map((choice, index) => {
-        return <Choice choice={choice} />;
+        return <Choice choice={choice} key={index} />;
       })}
     </div>
   );
