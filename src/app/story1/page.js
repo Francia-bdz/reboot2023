@@ -8,7 +8,7 @@ import data from "../../data/story1.json";
 import BtnNext from "../components/BtnNext/BtnNext";
 import { useState } from "react";
 
-export default function page() {
+export default function Home() {
   const [currentScene, setCurrentScene] = useState(0);
 
   return (
