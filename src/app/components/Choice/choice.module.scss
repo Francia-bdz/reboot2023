@@ -3,4 +3,8 @@
   background-color: wheat;
   border-radius: 12px;
   margin: 24px;
+  &.hide {
+    filter: grayscale(100%);
+    pointer-events: none;
+  }
 }

@@ -40,8 +40,9 @@ export default function Home() {
   return (
     <div className={styles.storyContainer}>
       <Scene scene={data.story[currentScene]} response={selectedResponse} />
-      {data.story[currentScene].choices && showChoices && (
+      {data.story[currentScene].choices && (
         <Choices
+          showChoices={showChoices}
           choices={data.story[currentScene].choices}
           handleChoiceClick={handleChoiceClick}
         />
