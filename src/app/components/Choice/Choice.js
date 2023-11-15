@@ -1,4 +1,4 @@
 import styles from "./style.module.scss";
-export default function Choice({ choice }) {
-  return <h1></h1>;
+export default function Choice({ choice, onClick }) {
+  return <h1 onClick={onClick}>{choice.proposition}</h1>;
 }

@@ -1,3 +1,3 @@
-export default function BtnNext() {
-  return <div>BtnNext</div>;
+export default function BtnNext({ onClick }) {
+  return <div onClick={onClick}>BtnNext</div>;
 }

@@ -12,11 +12,13 @@ export default function Home() {
   const [currentScene, setCurrentScene] = useState(0);
   const [selectedResponse, setSelecteResponse] = useState(null);
   const changeScene = () => {
+    console.log("test");
     setCurrentScene(currentScene + 1);
     setSelecteResponse(null);
   };
   const handleChoiceClick = (response) => {
     setSelecteResponse(response);
+    console.log(response);
   };
 
   return (
@@ -25,10 +27,10 @@ export default function Home() {
       {data.story[currentScene].choices && (
         <Choices
           choices={data.story[currentScene].choices}
-          onChoiceClick={handleChoiceClick}
+          handleChoiceClick={handleChoiceClick}
         />
       )}
-      <BtnNext onClick={() => setCurrentScene(currentScene + 1)} />
+      <BtnNext onClick={() => changeScene()} />
     </div>
   );
 }
