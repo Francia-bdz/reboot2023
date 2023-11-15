@@ -1,4 +1,8 @@
 import styles from "./style.module.scss";
 export default function Choice({ choice, onClick }) {
-  return <h1 onClick={onClick}>{choice.proposition}</h1>;
+  return (
+    <div className={styles.choice}>
+      <h1 onClick={onClick}>{choice.proposition}</h1>;
+    </div>
+  );
 }

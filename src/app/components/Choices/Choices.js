@@ -1,8 +1,8 @@
 import Choice from "../Choice/Choice";
-import styles from "./style.module.scss";
+import styles from "./choices.module.scss";
 export default function Choices({ choices, handleChoiceClick }) {
   return (
-    <div>
+    <div className={styles.choicesContainer}>
       {choices.map((choice, index) => {
         return (
           <Choice

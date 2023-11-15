@@ -1,3 +1,9 @@
+import styles from "./btnNext.module.scss";
+
 export default function BtnNext({ onClick }) {
-  return <div onClick={onClick}>BtnNext</div>;
+  return (
+    <div className={styles.btnNext} onClick={onClick}>
+      Suivant
+    </div>
+  );
 }

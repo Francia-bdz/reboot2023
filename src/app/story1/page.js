@@ -2,7 +2,7 @@
 
 import Scene from "../components/Scene/Scene";
 import Choices from "../components/Choices/Choices";
-import styles from "./style.module.scss";
+import styles from "./story1.module.scss";
 
 import data from "../../data/story1.json";
 import BtnNext from "../components/BtnNext/BtnNext";
@@ -22,7 +22,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className={styles.storyContainer}>
       <Scene scene={data.story[currentScene]} response={selectedResponse} />
       {data.story[currentScene].choices && (
         <Choices
