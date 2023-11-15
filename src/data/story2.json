@@ -1,0 +1,68 @@
+{
+  "story": [
+    {
+      "id": 1,
+      "question": "Test question 1",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "Test choice 1",
+          "response": "Ceci n'est pas une bonne réponse"
+        },
+        {
+          "id": 2,
+          "proposition": "Test choice 2",
+          "response": "Ceci est une bonne réponse"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Test question 2",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "Test choice 1",
+          "response": "Ceci n'est pas une bonne réponse"
+        },
+        {
+          "id": 2,
+          "proposition": "Test choice 2",
+          "response": "Ceci est une bonne réponse"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Test question 3",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "Test choice 1",
+          "response": "Ceci n'est pas une bonne réponse"
+        },
+        {
+          "id": 2,
+          "proposition": "Test choice 2",
+          "response": "Ceci est une bonne réponse"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Test question 4",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "Test choice 1",
+          "response": "Ceci n'est pas une bonne réponse"
+        },
+        {
+          "id": 2,
+          "proposition": "Test choice 2",
+          "response": "Ceci est une bonne réponse"
+        }
+      ]
+    }
+  ]
+}
