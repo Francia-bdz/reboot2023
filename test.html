@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+
+    <!-- Liens vers des feuilles de style (CSS) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Ajoutez ici d'autres balises meta, liens vers des feuilles de style ou scripts si nécessaire -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 1em;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 2em;
+        }
+
+        form {
+            width: 50%;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #eee;
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Titre de la Page</h1>
+        <p>Sous-titre ou description</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">À propos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Section Principale</h2>
+        <p>Contenu de la section principale...</p>
+
+        <!-- Formulaire de contact -->
+        <form action="traitement_formulaire.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <aside>
+        <h2>À propos</h2>
+        <p>Informations supplémentaires...</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Ma Page Web. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Liens vers des scripts (JavaScript) -->
+    <script src="script.js"></script>
+
+    <!-- Ajoutez ici d'autres scripts ou éléments si nécessaire -->
+</body>
+
+</html>
