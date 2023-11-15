@@ -1,5 +1,9 @@
 import styles from "./page.module.scss";
 
 export default function page() {
-  return <div>page</div>;
+
+  return <div>
+    Story 2
+
+  </div>;
 }
