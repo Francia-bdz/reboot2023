@@ -35,12 +35,6 @@ export default function Home() {
     }
   };
 
-  const handleChoiceClick = (response) => {
-    setSelecteResponse(response);
-    setShowChoices(false);
-    setIsBtnShown(true);
-  };
-
   useEffect(() => {
     window.addEventListener("keydown", handleKeyPress);
 
@@ -48,6 +42,12 @@ export default function Home() {
       window.removeEventListener("keydown", handleKeyPress);
     };
   }, [changeScene]);
+
+  const handleChoiceClick = (response) => {
+    setSelecteResponse(response);
+    setShowChoices(false);
+    setIsBtnShown(true);
+  };
 
   return (
     <div className={styles.storyContainer}>
