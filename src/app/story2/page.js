@@ -58,7 +58,7 @@ export default function Home() {
         {isBtnShown && (
           <div className={styles.spaceBarNext}>
             <p>
-              Appuyer sur <span>ESPACE</span> pour continuer !
+              {/* Appuyer sur <span>ESPACE</span> pour continuer ! */}
             </p>
           </div>
         )}
