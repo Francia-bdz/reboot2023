@@ -2,72 +2,173 @@
   "story": [
     {
       "id": 1,
-      "question": "Tu ne le vois pas encore mais nous sommes actuellement en 2060, bien que cette date te semble proche le monde a bien changé. Les énergies fossiles ont commencé à nous faire défaut, l’humanité a dû s’adapter et changer son mode de vie. Mais ne perdons pas plus de temps avec des explications, je vais t’accompagner durant cette journée!",
+      "question": "Bonjour mon ami, tu te demandes surement ce que tu fais là!",
       "img": "https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "choices": [
         {
           "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
+          "proposition": "Je me demande surtout qui tu es ! ",
+          "response": "Comment ça ? Qui je suis ? Je m’appelle Dr. Deck, mais on se fiche de savoir qui je suis! Ce qui est important c’est l’environnement dans lequel tu te trouves."
         }
       ]
-    },
-    {
-      "id": 1,
-      "question": "dialogue with nothing"
     },
     {
       "id": 2,
-      "question": "Test question 2",
-      "choices": [
-        {
-          "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
-        }
-      ]
+      "question": "Tu ne le vois pas encore mais nous sommes actuellement en 2060, bien que cette date te semble proche le monde a bien changé. Les énergies fossiles ont commencé à nous faire défaut, l’humanité a dû s’adapter et changer son mode de vie. Mais ne perdons pas plus de temps avec des explications, je vais t’accompagner durant cette journée!"
     },
     {
       "id": 3,
-      "question": "Test question 3",
+      "question": "Il est 8 heures, que dis-tu d’une bonne douche pour bien te réveiller et entamer ta journée ?",
       "choices": [
         {
           "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
+          "proposition": "Je prends ma douche le soir moi ! ",
+          "response": "Et bien pas aujourd’hui, c’est moi qui fais la loi vois-tu."
         },
         {
           "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
+          "proposition": "Allons-y ",
+          "response": "Très bon choix, que je ne t’aurais pas laissé de toute manière."
         }
       ]
     },
     {
       "id": 4,
-      "question": "Test question 4",
+      "question": "Grâce à la transition énergétique tu peux toujours profiter d’une douche, cependant celle-ci est limitée à 5min de débit. En effet, nous sommes arrivés à termes des énergies fossiles que la terre nous a offertes."
+    },
+    {
+      "id": 5,
+      "question": "Cette transition ne nous permet pas une abondance comme nous avons connu dans le passé, il nous a fallu passer aux énergies vertes, mais surtout au nucléaire qui se présentait comme notre seule solution pour garder un certain confort dans notre quotidien, bien que nous ayons supprimé beaucoup de nos mauvaises pratiques."
+    },
+    {
+      "id": 6,
+      "question": "Tu vois 5 minutes, c'est bien suffisant pour une douche !"
+    },
+    {
+      "id": 7,
+      "question": "Bon, j’imagine que consulter ton téléphone dès le matin est une habitude, tu ne me feras pas croire que tu es un jeune pas comme les autres !"
+    },
+    {
+      "id": 8,
+      "question": "Mais tu es plutôt du genre à consulter les informations ou à te balader sur les réseaux ?",
       "choices": [
         {
           "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
+          "proposition": "J’aime être à jour sur ce qu’il se passe dans le monde",
+          "response": "Tu as raison, c'est important d’être informé, les réseaux sociaux n’ont plus leur place dans une société comme la nôtre."
         },
         {
           "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
+          "proposition": "Pour un réveil en douceur, je privilégie Instagram !",
+          "response": "Malheureusement pour toi, les réseaux ne font plus partie de notre quotidien."
         }
       ]
+    },
+    {
+      "id": 8,
+      "question": "Je ne pense pas que j’ai besoin de te rappeler ce qu’il s’est passé avec les énergies fossiles. Pour les mêmes raisons que celles citées précédemment, le numérique ne peut plus occuper une place aussi importante qu’avant."
+    },
+    {
+      "id": 9,
+      "question": "Nous nous limitons à nos besoins, ton téléphone te servira principalement à téléphoner ou envoyer des messages à tes proches. Tu peux toujours lire les informations, cependant le superflu a disparu."
+    },
+    {
+      "id": 10,
+      "question": "Tu n’as pas vu l’heure passer apparemment, tu vas bientôt commencer le travail ! Comment t’y rends-tu habituellement ? ",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "À pied",
+          "response": "Très bon choix, ça ne te fait pas de mal de marcher"
+        },
+        {
+          "id": 2,
+          "proposition": "À vélo",
+          "response": "Ça te permet d’arriver plus vite et c’est un bon choix pour la planète"
+        },
+        {
+          "id": 3,
+          "proposition": "En voiture",
+          "response": "Les routes sont surtout adaptées pour les vélos et la marche, il est trop compliqué pour toi de t’y rendre en voiture."
+        },
+        {
+          "id": 4,
+          "proposition": "En transports en commun",
+          "response": "Les voitures et les transports en commun ne circulent pas comme avant car les routes ne le permettent plus."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Cependant, tu vis dans un écovillage, nous avons dû repenser le système des villes en se concentrant sur les besoins et les ressources de la planète et prônant une réduction de la production et de notre consommation, ainsi les écovillages contribuent à réduire les déplacements."
+    },
+    {
+      "id": 12,
+      "question": "Pour les cas plus compliqués, on applique le télétravail qui est devenu très courant de nos jours, tu n'as donc nulle part où te rendre, pas plus loin que ton bureau."
+    },
+    {
+      "id": 13,
+      "question": "Il est midi et tu as déjà fini ta journée ! Incroyable non ? C’est normal, car nous ne sommes plus dans une économie exponentielle. "
+    },
+    {
+      "id": 14,
+      "question": "Il est midi et tu as déjà fini ta journée ! Incroyable non ? C’est normal, car nous ne sommes plus dans une économie exponentielle. "
+    },
+    {
+      "id": 15,
+      "question": "Le capitalisme et le consumérisme ne sont plus au cœur de notre société. Nous nous limitons désormais à nos besoins et nous ne cherchons pas à produire toujours plus en quête de profit. Comme tu peux le deviner, le temps de travail devient alors moins important, les humains accordent désormais plus d’importance aux valeurs non matérielles telles que les relations sociales, la santé et le bien-être."
+    },
+    {
+      "id": 15,
+      "question": "Il est 15 heures et tu dois faire tes courses !"
+    },
+    {
+      "id": 16,
+      "question": "Tu irais où pour faire tes courses ?",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "L’épicerie en bas de chez toi",
+          "response": "L’épicerie est à proximité et te permettra d’acheter uniquement les choses essentielles."
+        },
+        {
+          "id": 2,
+          "proposition": "Centre commercial ",
+          "response": "Le centre commercial n’est pas à côté, néanmoins là-bas, tu pourras y trouver beaucoup plus de choses."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Aujourd’hui faire les courses est un peu différent. Les commerçants et artisans sont désormais tous situés à proximité, au centre de l’écovillage, cela peut te rappeler l’idée d’un centre commercial, cependant ce ne sont que des produits locaux et essentiels pour bien vivre. Dans ces commerces, tu ne trouves plus de produits transformés ou des produits nous poussant à la surconsommation."
+    },
+    {
+      "id": 18,
+      "question": "Tu es fatigué de ta journée, tu peux maintenant te reposer devant la télé. "
+    },
+    {
+      "id": 19,
+      "question": "Pour accompagner ton film, tu te fais livrer ton repas préféré ou tu vas le chercher toi-même ? ",
+      "choices": [
+        {
+          "id": 1,
+          "proposition": "livraison ",
+          "response": "Malheureusement pour toi, la livraison n’existe plus de nos jours"
+        },
+        {
+          "id": 2,
+          "proposition": "récupération en main propre ",
+          "response": "Tu as bien raison, d’autant plus que ça ne te fera pas de mal de te déplacer !"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Tous les métiers du tertiaire n’existeront plus dus à la fin du capitalisme et de l’économie croissante. Tu ne peux donc pas te faire livrer ton repas, il faut aller le récupérer toi-même. Et ne compte surtout pas sur un Mcdo, tu serais très déçu !"
+    },
+    {
+      "id": 21,
+      "question": "Au travers de cette journée, nous avons pu voir comment fonctionnerait une société où nous avons su réagir face au manque d’énergies fossiles en optant pour une décroissance volontaire et en transitionnant vers le nucléaire, ce qui nous permettrait de garder un confort tout en le limitant uniquement à nos besoins."
     }
   ]
 }

@@ -60,7 +60,7 @@ export default function Home() {
     >
       <div className={styles.storyContainer}>
         <Scene scene={data.story[currentScene]} response={selectedResponse} />
-        {data.story[currentScene].choices && (
+        {data.story[currentScene].choices && showChoices && (
           <Choices
             showChoices={showChoices}
             choices={data.story[currentScene].choices}
