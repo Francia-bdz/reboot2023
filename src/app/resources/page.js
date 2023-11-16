@@ -1,4 +1,4 @@
-import styles from "./style.module.scss";
+import styles from "./resources.module.scss";
 
 export default function page() {
   return <div>page</div>;

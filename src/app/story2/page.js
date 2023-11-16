@@ -1,4 +1,4 @@
-import styles from "./style.module.scss";
+import styles from "./story2.module.scss";
 
 export default function page() {
 
