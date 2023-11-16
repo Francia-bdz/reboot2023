@@ -1,5 +1,5 @@
 import styles from "./resources.module.scss";
 
 export default function page() {
-  return <div>page</div>;
+  return <div>page ressources</div>;
 }
