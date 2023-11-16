@@ -20,13 +20,6 @@ export default function Choices({
           );
         })}
       </div>
-      {shown && (
-        <div className={styles.spaceBarNext}>
-          <p>
-            Appuyer sur <span>ESPACE</span> pour continuer !
-          </p>
-        </div>
-      )}
     </div>
   );
 }

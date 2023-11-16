@@ -2,67 +2,55 @@
   "story": [
     {
       "id": 1,
-      "question": "Test question 1 story2",
-      "choices": [
-        {
-          "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
-        }
-      ]
+      "question": "Ici, nous nous retrouvons dans une réalité où aucune mesure n’a été prise face à ce problème, plongeant ainsi l’humanité dans la plus grande crise jamais connue."
     },
     {
       "id": 2,
-      "question": "Test question 2",
-      "choices": [
-        {
-          "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
-        }
-      ]
+      "question": "L’électricité, l’eau courante et l’accès à la nourriture sont devenus difficiles d’accès.\n\nContrairement à tout à l’heure, tu n’as malheureusement pas l’occasion de prendre une douche aussi agréable que la précédente."
     },
     {
       "id": 3,
-      "question": "Test question 3",
-      "choices": [
-        {
-          "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
-        }
-      ]
+      "question": "En effet, l’eau ne circule plus couramment, l’énergie manque pour alimenter toutes les stations d’épuration.\n\nDes rations sont toujours attribuées afin de pouvoir boire de l’eau potable, mais celles-ci sont limitées."
     },
     {
       "id": 4,
-      "question": "Test question 4",
-      "choices": [
-        {
-          "id": 1,
-          "proposition": "Test choice 1",
-          "response": "Ceci n'est pas une bonne réponse"
-        },
-        {
-          "id": 2,
-          "proposition": "Test choice 2",
-          "response": "Ceci est une bonne réponse"
-        }
-      ]
+      "question": "Ce matin tu es chanceux, les récupérateurs d’eau de pluie ont porté leurs fruits pendant la nuit.\n\nBien que l’eau soit froide, tu es content de pouvoir te laver aujourd’hui.\n\nTu utiliseras néanmoins une bassine pour économiser cette eau si précieuse."
+    },
+    {
+      "id": 5,
+      "question": "La suite de ta matinée ne va pas en s’arrangeant."
+    },
+    {
+      "id": 6,
+      "question": "Le domaine de l’alimentaire est également très impacté par cette crise.\n\nPresque plus aucun aliment n’est importé, il est devenu compliqué de conserver la nourriture, et tous les produits transformés que tu avais pour habitude de consommer n’existent plus."
+    },
+    {
+      "id": 7,
+      "question": "Il faut alors retourner aux bonnes vieilles méthodes d’antan, cultiver sa propre nourriture."
+    },
+    {
+      "id": 8,
+      "question": "Cette année l’hiver a été rude, des périodes de gels ont affecté tes récoltes.\n\nPar conséquent, tu es contraint de sauter le petit déjeuner."
+    },
+    {
+      "id": 9,
+      "question": "Après une longue journée de travail dans ton champ, tu rentres à la maison."
+    },
+    {
+      "id": 10,
+      "question": "Ta femme est bien malade, ça n’est sûrement qu’un petit rhume, mais l’absence de médicaments le rend difficile à vivre."
+    },
+    {
+      "id": 11,
+      "question": "Il y a toujours des médecins qui ont recours à des remèdes naturels, seulement, ils sont très peu nombreux et celui de ta ville se trouve trop loin de chez toi."
+    },
+    {
+      "id": 12,
+      "question": "Car oui, comme tu peux le deviner il n’y a plus de transports, du moins ceux-ci ne sont plus accessibles au peuple car devenus trop coûteux.\n\nTu décides alors de sacrifier un peu de tes récoltes afin de lui préparer un repas qui va lui permettre de lui redonner un peu de force, puis tu la laisses se reposer."
+    },
+    {
+      "id": 13,
+      "question": "Désormais, la nuit tombe et il fait très froid.\n\nTu n’as pas le choix que d’allumer un feu dans une cheminée pour apporter de la chaleur à ta maison et mettre au chaud ta femme."
     }
   ]
 }

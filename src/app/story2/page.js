@@ -14,7 +14,7 @@ export default function Home() {
   const [currentScene, setCurrentScene] = useState(0);
   const [selectedResponse, setSelecteResponse] = useState(null);
   const [showChoices, setShowChoices] = useState(true);
-  const [isBtnShown, setIsBtnShown] = useState(false);
+  const [isBtnShown, setIsBtnShown] = useState(true);
   const changeScene = () => {
     if (currentScene < data.story.length - 1) {
       setShowChoices(true);
@@ -43,12 +43,6 @@ export default function Home() {
     };
   }, [changeScene]);
 
-  const handleChoiceClick = (response) => {
-    setSelecteResponse(response);
-    setShowChoices(false);
-    setIsBtnShown(true);
-  };
-
   return (
     <div
       className={styles.main}
@@ -60,13 +54,13 @@ export default function Home() {
     >
       <div className={styles.storyContainer}>
         <Scene scene={data.story[currentScene]} response={selectedResponse} />
-        {data.story[currentScene].choices && (
-          <Choices
-            showChoices={showChoices}
-            choices={data.story[currentScene].choices}
-            shown={isBtnShown}
-            handleChoiceClick={handleChoiceClick}
-          />
+
+        {isBtnShown && (
+          <div className={styles.spaceBarNext}>
+            <p>
+              Appuyer sur <span>ESPACE</span> pour continuer !
+            </p>
+          </div>
         )}
         <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
       </div>

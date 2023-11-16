@@ -68,6 +68,13 @@ export default function Home() {
             handleChoiceClick={handleChoiceClick}
           />
         )}
+        {isBtnShown && (
+          <div className={styles.spaceBarNext}>
+            <p>
+              Appuyer sur <span>ESPACE</span> pour continuer !
+            </p>
+          </div>
+        )}
         <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
       </div>
     </div>
