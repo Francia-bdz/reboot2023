@@ -1,9 +1,10 @@
 .sceneContainer {
   margin-top: 30vh;
+  z-index: 1;
   .character {
     width: 60%;
     margin: 0 auto -10px auto;
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     top: 10%;
     left: 25%;
@@ -16,7 +17,6 @@
     padding: 24px;
     border-radius: 25px;
     background: #000;
-    z-index: 3;
 
     p {
       z-index: 2;
