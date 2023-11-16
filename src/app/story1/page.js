@@ -1,13 +1,12 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Scene from "../components/Scene/Scene";
 import Choices from "../components/Choices/Choices";
-import styles from "./story1.module.scss";
-
-import data from "../../data/story1.json";
 import BtnNext from "../components/BtnNext/BtnNext";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import styles from "./story1.module.scss";
+import data from "../../data/story1.json";
 
 export default function Home() {
   const router = useRouter();
@@ -30,24 +29,39 @@ export default function Home() {
       router.push("/story2");
     }
   };
+  const handleKeyPress = (e) => {
+    if (e.key === " " && isBtnShown) {
+      changeScene();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [changeScene]);
+
   const handleChoiceClick = (response) => {
     setSelecteResponse(response);
     setShowChoices(false);
     setIsBtnShown(true);
-    console.log(response);
   };
 
   return (
-    <div className={styles.storyContainer}>
-      <Scene scene={data.story[currentScene]} response={selectedResponse} />
-      {data.story[currentScene].choices && (
-        <Choices
-          showChoices={showChoices}
-          choices={data.story[currentScene].choices}
-          handleChoiceClick={handleChoiceClick}
-        />
-      )}
-      <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+    <div className={styles.main}>
+      <div className={styles.storyContainer}>
+        <Scene scene={data.story[currentScene]} response={selectedResponse} />
+        {data.story[currentScene].choices && (
+          <Choices
+            showChoices={showChoices}
+            choices={data.story[currentScene].choices}
+            handleChoiceClick={handleChoiceClick}
+          />
+        )}
+        <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+      </div>
     </div>
   );
 }

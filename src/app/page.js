@@ -5,7 +5,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Link href="/intro"> Démarrer l'histoire</Link>
+      <div className={styles.title}>
+        <h1>DEGROWTH</h1>
+        <h2>2100 .</h2>
+      </div>
+      <Link className={styles.start} href="/story1">
+        {" "}
+        Démarrer l'histoire
+      </Link>
     </main>
   );
 }
