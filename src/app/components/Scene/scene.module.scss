@@ -16,7 +16,10 @@
     text-align: center;
     padding: 24px;
     border-radius: 25px;
-    background: #000;
+    background-color: #000000;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000; /* WebKit */
+    -moz-box-shadow: 0px 0px 15px 15px #000000; /* Firefox */
+    box-shadow: 0px 0px 15px 15px #000000; /* Standard */
     p {
       z-index: 2;
       font-size: 20px;
