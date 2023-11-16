@@ -4,11 +4,30 @@
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  background-color: wheat;
+  
+}
+
+.background{
+  position: absolute;
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background_img{
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+.background_img2{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
 
 .title {
-  margin-top: 30vh;
+  margin-top: 8vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,4 +40,57 @@
   border: 1px solid white;
   text-decoration: none;
   color: white;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo_1{
+  max-width: 115px;
+}
+
+.logo_2{
+  font-family: 'Against', 'Arial';
+  align-self: baseline;
+  font-size: 80px;
+  color: white;
+}
+
+.blur_1{
+  filter: blur(2px);
+}
+
+.blur_2{
+  filter: blur(4px);
+}
+
+.blur_3{
+  filter: blur(6px);
+}
+
+.blur_4{
+  filter: blur(8px);
+}
+
+.start{
+  align-self: first baseline;
+  position: relative;
+  left: 45%;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.start:hover{
+  background-color: rgba(0, 0, 0, 0.771);
+}
+
+.arrow{
+  margin-left:10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.start:hover .arrow{
+  margin-left: 20px;
 }

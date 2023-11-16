@@ -1,3 +1,9 @@
+@font-face{
+  font-family: 'Against';
+  src:
+    url('/font/against.ttf') format('truetype'),
+    url('/font/against.otf') format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
