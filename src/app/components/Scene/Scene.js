@@ -4,7 +4,7 @@ export default function Scene({ scene, response }) {
     <div className={styles.sceneContainer}>
       <div className={styles.character}></div>
       <div className={styles.bubble}>
-        {response ? <h1>{response}</h1> : <h1>{scene.question}</h1>}
+        {response ? <p>{response}</p> : <p>{scene.question}</p>}
       </div>
     </div>
   );

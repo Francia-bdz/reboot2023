@@ -1,8 +1,11 @@
 .main {
-  height: 100vh;
+  background-color: wheat;
 }
 
 .storyContainer {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
 }

@@ -1,18 +1,32 @@
 import Choice from "../Choice/Choice";
 import styles from "./choices.module.scss";
-export default function Choices({ choices, handleChoiceClick, showChoices }) {
+export default function Choices({
+  choices,
+  handleChoiceClick,
+  showChoices,
+  shown,
+}) {
   return (
     <div className={styles.choicesContainer}>
-      {choices.map((choice, index) => {
-        return (
-          <Choice
-            choice={choice}
-            key={index}
-            show={showChoices}
-            onClick={() => handleChoiceClick(choice.response)}
-          />
-        );
-      })}
+      <div className={styles.choices}>
+        {choices.map((choice, index) => {
+          return (
+            <Choice
+              choice={choice}
+              key={index}
+              show={showChoices}
+              onClick={() => handleChoiceClick(choice.response)}
+            />
+          );
+        })}
+      </div>
+      {shown && (
+        <div className={styles.spaceBarNext}>
+          <p>
+            Appuyer sur <span>ESPACE</span> pour continuer !
+          </p>
+        </div>
+      )}
     </div>
   );
 }

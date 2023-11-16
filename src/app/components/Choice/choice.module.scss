@@ -1,10 +1,14 @@
 .choice {
-  padding: 24px;
-  background-color: wheat;
+  padding: 14px 52px;
   border-radius: 12px;
+  border: 1px solid white;
+  border-radius: 15px;
   margin: 24px;
   &.hide {
     filter: grayscale(100%);
     pointer-events: none;
+  }
+  h5 {
+    font-size: 20px;
   }
 }
