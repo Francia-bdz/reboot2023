@@ -62,4 +62,5 @@ export default function Home() {
       <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
     </div>
   );
+
 }
