@@ -50,32 +50,34 @@ export default function Home() {
   };
 
   return (
-    <div
-      className={styles.main}
-      style={{
-        backgroundImage: `url(${data.story[currentScene].img})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className={styles.storyContainer}>
-        <Scene scene={data.story[currentScene]} response={selectedResponse} />
-        {data.story[currentScene].choices && showChoices && (
-          <Choices
-            showChoices={showChoices}
-            choices={data.story[currentScene].choices}
-            shown={isBtnShown}
-            handleChoiceClick={handleChoiceClick}
-          />
-        )}
-        {isBtnShown && (
-          <div className={styles.spaceBarNext}>
-            <p>
-              Appuyer sur <span>ESPACE</span> pour continuer !
-            </p>
-          </div>
-        )}
-        <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+    <div className={styles.dark}>
+      <div
+        className={styles.main}
+        style={{
+          backgroundImage: ` url(${data.story[currentScene].img})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className={styles.storyContainer}>
+          <Scene scene={data.story[currentScene]} response={selectedResponse} />
+          {data.story[currentScene].choices && showChoices && (
+            <Choices
+              showChoices={showChoices}
+              choices={data.story[currentScene].choices}
+              shown={isBtnShown}
+              handleChoiceClick={handleChoiceClick}
+            />
+          )}
+          {isBtnShown && (
+            <div className={styles.spaceBarNext}>
+              <p>
+                Appuyer sur <span>ESPACE</span> pour continuer !
+              </p>
+            </div>
+          )}
+          <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+        </div>
       </div>
     </div>
   );

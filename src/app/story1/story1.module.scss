@@ -1,5 +1,8 @@
+.dark {
+  background-color: #000;
+}
+
 .main {
-  background-color: wheat;
 }
 
 .storyContainer {
@@ -8,4 +11,9 @@
   flex-direction: column;
   width: 80vw;
   margin: 0 auto;
+}
+
+.spaceBarNext {
+  margin: 72px auto;
+  font-size: 18px;
 }

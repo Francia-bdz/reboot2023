@@ -2,7 +2,12 @@
   margin: auto 60px 60px auto;
   border: 1px solid white;
   padding: 14px 22px;
-  border-radius: 15px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    border-radius: 15px;
+  }
 }
 
 .btnNextHide {

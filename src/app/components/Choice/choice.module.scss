@@ -1,12 +1,23 @@
 .choice {
-  padding: 14px 52px;
+  padding: 12px 32px;
   border-radius: 12px;
   border: 1px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 24px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
   &.hide {
     filter: grayscale(100%);
     pointer-events: none;
+  }
+  &:hover {
+    border-radius: 15px;
+
+    cursor: pointer;
   }
   h5 {
     font-size: 20px;
