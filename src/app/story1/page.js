@@ -50,16 +50,18 @@ export default function Home() {
   };
 
   return (
-    <div className={styles.storyContainer}>
-      <Scene scene={data.story[currentScene]} response={selectedResponse} />
-      {data.story[currentScene].choices && (
-        <Choices
-          showChoices={showChoices}
-          choices={data.story[currentScene].choices}
-          handleChoiceClick={handleChoiceClick}
-        />
-      )}
-      <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+    <div className={styles.main}>
+      <div className={styles.storyContainer}>
+        <Scene scene={data.story[currentScene]} response={selectedResponse} />
+        {data.story[currentScene].choices && (
+          <Choices
+            showChoices={showChoices}
+            choices={data.story[currentScene].choices}
+            handleChoiceClick={handleChoiceClick}
+          />
+        )}
+        <BtnNext shown={isBtnShown} onClick={() => changeScene()} />
+      </div>
     </div>
   );
 }
