@@ -170,12 +170,12 @@
       "choices": [
         {
           "id": 1,
-          "proposition": "livraison ",
+          "proposition": "Livraison ",
           "response": "Malheureusement pour toi, la livraison n’existe plus de nos jours"
         },
         {
           "id": 2,
-          "proposition": "récupération en main propre ",
+          "proposition": "Récupération en main propre ",
           "response": "Tu as bien raison, d’autant plus que ça ne te fera pas de mal de te déplacer !"
         }
       ]
