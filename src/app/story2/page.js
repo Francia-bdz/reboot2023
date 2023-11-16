@@ -26,7 +26,7 @@ export default function Home() {
         setIsBtnShown(true);
       }
     } else {
-      router.push("/resources");
+      router.push("/");
     }
   };
   const handleKeyPress = (e) => {
