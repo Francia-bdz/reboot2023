@@ -3,7 +3,7 @@
     {
       "id": 1,
       "question": "Bonjour mon ami, tu te demandes sûrement ce que tu fais là!",
-      "img": "https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "img": "/assets/images/story1/intro.jpg",
       "choices": [
         {
           "id": 1,
@@ -14,11 +14,13 @@
     },
     {
       "id": 2,
-      "question": "Tu ne le vois pas encore mais nous sommes actuellement en 2060, bien que cette date te semble proche le monde a bien changé. Les énergies fossiles ont commencé à nous faire défaut, l’humanité a dû s’adapter et changer son mode de vie. Mais ne perdons pas plus de temps avec des explications, je vais t’accompagner durant cette journée!"
+      "question": "Tu ne le vois pas encore mais nous sommes actuellement en 2060, bien que cette date te semble proche le monde a bien changé. Les énergies fossiles ont commencé à nous faire défaut, l’humanité a dû s’adapter et changer son mode de vie. Mais ne perdons pas plus de temps avec des explications, je vais t’accompagner durant cette journée!",
+      "img": "/assets/images/story1/intro.jpg"
     },
     {
       "id": 3,
       "question": "Il est 8 heures, que dis-tu d’une bonne douche pour bien te réveiller et entamer ta journée ?",
+      "img": "/assets/images/story1/intro.jpg",
       "choices": [
         {
           "id": 1,
@@ -34,23 +36,29 @@
     },
     {
       "id": 4,
-      "question": "Grâce à la transition énergétique tu peux toujours profiter d’une douche, cependant celle-ci est limitée à 5min de débit. En effet, nous sommes arrivés à termes des énergies fossiles que la terre nous a offertes."
+      "question": "Grâce à la transition énergétique tu peux toujours profiter d’une douche, cependant celle-ci est limitée à 5min de débit. En effet, nous sommes arrivés à termes des énergies fossiles que la terre nous a offertes.",
+      "img": "/assets/images/story1/bathroom.jpg"
     },
     {
       "id": 5,
-      "question": "Cette transition ne nous permet pas une abondance comme nous avons connu dans le passé, il nous a fallu passer aux énergies vertes, mais surtout au nucléaire qui se présentait comme notre seule solution pour garder un certain confort dans notre quotidien, bien que nous ayons supprimé beaucoup de nos mauvaises pratiques."
+      "question": "Cette transition ne nous permet pas une abondance comme nous avons connu dans le passé, il nous a fallu passer aux énergies vertes, mais surtout au nucléaire qui se présentait comme notre seule solution pour garder un certain confort dans notre quotidien, bien que nous ayons supprimé beaucoup de nos mauvaises pratiques.",
+      "img": "/assets/images/story1/bathroom.jpg"
     },
     {
       "id": 6,
-      "question": "Tu vois 5 minutes, c'est bien suffisant pour une douche !"
+      "question": "Tu vois 5 minutes, c'est bien suffisant pour une douche !",
+      "img": "/assets/images/story1/bathroom.jpg"
     },
     {
       "id": 7,
-      "question": "Bon, j’imagine que consulter ton téléphone dès le matin est une habitude, tu ne me feras pas croire que tu es un jeune pas comme les autres !"
+      "question": "Bon, j’imagine que consulter ton téléphone dès le matin est une habitude, tu ne me feras pas croire que tu es un jeune pas comme les autres !",
+      "img": "/assets/images/story1/phone.jpg"
     },
     {
       "id": 8,
       "question": "Mais tu es plutôt du genre à consulter les informations ou à te balader sur les réseaux ?",
+      "img": "/assets/images/story1/phone.jpg",
+
       "choices": [
         {
           "id": 1,
@@ -66,15 +74,18 @@
     },
     {
       "id": 8,
-      "question": "Je ne pense pas que j’ai besoin de te rappeler ce qu’il s’est passé avec les énergies fossiles. Pour les mêmes raisons que celles citées précédemment, le numérique ne peut plus occuper une place aussi importante qu’avant."
+      "question": "Je ne pense pas que j’ai besoin de te rappeler ce qu’il s’est passé avec les énergies fossiles. Pour les mêmes raisons que celles citées précédemment, le numérique ne peut plus occuper une place aussi importante qu’avant.",
+      "img": "/assets/images/story1/phone.jpg"
     },
     {
       "id": 9,
-      "question": "Nous nous limitons à nos besoins, ton téléphone te servira principalement à téléphoner ou envoyer des messages à tes proches. Tu peux toujours lire les informations, cependant le superflu a disparu."
+      "question": "Nous nous limitons à nos besoins, ton téléphone te servira principalement à téléphoner ou envoyer des messages à tes proches. Tu peux toujours lire les informations, cependant le superflu a disparu.",
+      "img": "/assets/images/story1/phone.jpg"
     },
     {
       "id": 10,
       "question": "Tu n’as pas vu l’heure passer apparemment, tu vas bientôt commencer le travail ! Comment t’y rends-tu habituellement ? ",
+      "img": "/assets/images/story1/phone.jpg",
       "choices": [
         {
           "id": 1,
@@ -100,31 +111,34 @@
     },
     {
       "id": 11,
-      "question": "Cependant, tu vis dans un écovillage, nous avons dû repenser le système des villes en se concentrant sur les besoins et les ressources de la planète et prônant une réduction de la production et de notre consommation, ainsi les écovillages contribuent à réduire les déplacements."
+      "question": "Cependant, tu vis dans un écovillage, nous avons dû repenser le système des villes en se concentrant sur les besoins et les ressources de la planète et prônant une réduction de la production et de notre consommation, ainsi les écovillages contribuent à réduire les déplacements.",
+      "img": "/assets/images/story1/remote.jpg"
     },
     {
       "id": 12,
-      "question": "Pour les cas plus compliqués, on applique le télétravail qui est devenu très courant de nos jours, tu n'as donc nulle part où te rendre, pas plus loin que ton bureau."
+      "question": "Pour les cas plus compliqués, on applique le télétravail qui est devenu très courant de nos jours, tu n'as donc nulle part où te rendre, pas plus loin que ton bureau.",
+      "img": "/assets/images/story1/remote.jpg"
     },
     {
       "id": 13,
-      "question": "Il est midi et tu as déjà fini ta journée ! Incroyable non ? C’est normal, car nous ne sommes plus dans une économie exponentielle. "
+      "question": "Il est midi et tu as déjà fini ta journée ! Incroyable non ? C’est normal, car nous ne sommes plus dans une économie exponentielle. ",
+      "img": "/assets/images/story1/remote.jpg"
     },
+
     {
-      "id": 14,
-      "question": "Il est midi et tu as déjà fini ta journée ! Incroyable non ? C’est normal, car nous ne sommes plus dans une économie exponentielle. "
+      "id": 15,
+      "question": "Le capitalisme et le consumérisme ne sont plus au cœur de notre société. Nous nous limitons désormais à nos besoins et nous ne cherchons pas à produire toujours plus en quête de profit. Comme tu peux le deviner, le temps de travail devient alors moins important, les humains accordent désormais plus d’importance aux valeurs non matérielles telles que les relations sociales, la santé et le bien-être.",
+      "img": "/assets/images/story1/remote.jpg"
     },
     {
       "id": 15,
-      "question": "Le capitalisme et le consumérisme ne sont plus au cœur de notre société. Nous nous limitons désormais à nos besoins et nous ne cherchons pas à produire toujours plus en quête de profit. Comme tu peux le deviner, le temps de travail devient alors moins important, les humains accordent désormais plus d’importance aux valeurs non matérielles telles que les relations sociales, la santé et le bien-être."
-    },
-    {
-      "id": 15,
-      "question": "Il est 15 heures et tu dois faire tes courses !"
+      "question": "Il est 15 heures et tu dois faire tes courses !",
+      "img": "/assets/images/story1/remote.jpg"
     },
     {
       "id": 16,
       "question": "Tu irais où pour faire tes courses ?",
+      "img": "/assets/images/story1/eco-village.jpg",
       "choices": [
         {
           "id": 1,
@@ -140,15 +154,19 @@
     },
     {
       "id": 17,
-      "question": "Aujourd’hui faire les courses est un peu différent. Les commerçants et artisans sont désormais tous situés à proximité, au centre de l’écovillage, cela peut te rappeler l’idée d’un centre commercial, cependant ce ne sont que des produits locaux et essentiels pour bien vivre. Dans ces commerces, tu ne trouves plus de produits transformés ou des produits nous poussant à la surconsommation."
+      "question": "Aujourd’hui faire les courses est un peu différent. Les commerçants et artisans sont désormais tous situés à proximité, au centre de l’écovillage, cela peut te rappeler l’idée d’un centre commercial, cependant ce ne sont que des produits locaux et essentiels pour bien vivre. Dans ces commerces, tu ne trouves plus de produits transformés ou des produits nous poussant à la surconsommation.",
+      "img": "/assets/images/story1/eco-village.jpg"
     },
     {
       "id": 18,
-      "question": "Tu es fatigué de ta journée, tu peux maintenant te reposer devant la télé. "
+      "question": "Tu es fatigué de ta journée, tu peux maintenant te reposer devant la télé. ",
+      "img": "/assets/images/story1/chill.jpg"
     },
     {
       "id": 19,
       "question": "Pour accompagner ton film, tu te fais livrer ton repas préféré ou tu vas le chercher toi-même ? ",
+      "img": "/assets/images/story1/chill.jpg",
+
       "choices": [
         {
           "id": 1,
@@ -164,11 +182,13 @@
     },
     {
       "id": 20,
-      "question": "Tous les métiers du tertiaire n’existeront plus dus à la fin du capitalisme et de l’économie croissante. Tu ne peux donc pas te faire livrer ton repas, il faut aller le récupérer toi-même. Et ne compte surtout pas sur un Mcdo, tu serais très déçu !"
+      "question": "Tous les métiers du tertiaire n’existeront plus dus à la fin du capitalisme et de l’économie croissante. Tu ne peux donc pas te faire livrer ton repas, il faut aller le récupérer toi-même. Et ne compte surtout pas sur un Mcdo, tu serais très déçu !",
+      "img": "/assets/images/story1/chill.jpg"
     },
     {
       "id": 21,
-      "question": "Au travers de cette journée, nous avons pu voir comment fonctionnerait une société où nous avons su réagir face au manque d’énergies fossiles en optant pour une décroissance volontaire et en transitionnant vers le nucléaire, ce qui nous permettrait de garder un confort tout en le limitant uniquement à nos besoins."
+      "question": "Au travers de cette journée, nous avons pu voir comment fonctionnerait une société où nous avons su réagir face au manque d’énergies fossiles en optant pour une décroissance volontaire et en transitionnant vers le nucléaire, ce qui nous permettrait de garder un confort tout en le limitant uniquement à nos besoins.",
+      "img": "/assets/images/story1/chill.jpg"
     }
   ]
 }
