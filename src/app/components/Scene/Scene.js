@@ -11,7 +11,6 @@ export default function Scene({ scene, response }) {
           height="200"
           objectFit="cover"
         />
-        ù
       </div>
       <div className={styles.bubble}>
         {response ? <p>{response}</p> : <p>{scene.question}</p>}
