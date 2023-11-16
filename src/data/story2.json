@@ -2,55 +2,68 @@
   "story": [
     {
       "id": 1,
-      "question": "Ici, nous nous retrouvons dans une réalité où aucune mesure n’a été prise face à ce problème, plongeant ainsi l’humanité dans la plus grande crise jamais connue."
+      "question": "Ici, nous nous retrouvons dans une réalité où aucune mesure n’a été prise face à ce problème, plongeant ainsi l’humanité dans la plus grande crise jamais connue.",
+      "img": "/assets/images/story2/intro.jpg"
     },
     {
       "id": 2,
-      "question": "L’électricité, l’eau courante et l’accès à la nourriture sont devenus difficiles d’accès.\n\n Contrairement à tout à l’heure, tu n’as malheureusement pas l’occasion de prendre une douche aussi agréable que la précédente."
+      "question": "L’électricité, l’eau courante et l’accès à la nourriture sont devenus difficiles d’accès.\n\n Contrairement à tout à l’heure, tu n’as malheureusement pas l’occasion de prendre une douche aussi agréable que la précédente.",
+      "img": "/assets/images/story2/intro.jpg"
     },
     {
       "id": 3,
-      "question": "En effet, l’eau ne circule plus couramment, l’énergie manque pour alimenter toutes les stations d’épuration.\n\nDes rations sont toujours attribuées afin de pouvoir boire de l’eau potable, mais celles-ci sont limitées."
+      "question": "En effet, l’eau ne circule plus couramment, l’énergie manque pour alimenter toutes les stations d’épuration.\n\nDes rations sont toujours attribuées afin de pouvoir boire de l’eau potable, mais celles-ci sont limitées.",
+      "img": "/assets/images/story2/intro.jpg"
     },
     {
       "id": 4,
-      "question": "Ce matin tu es chanceux, les récupérateurs d’eau de pluie ont porté leurs fruits pendant la nuit.\n\nBien que l’eau soit froide, tu es content de pouvoir te laver aujourd’hui.\n\nTu utiliseras néanmoins une bassine pour économiser cette eau si précieuse."
+      "question": "Ce matin tu es chanceux, les récupérateurs d’eau de pluie ont porté leurs fruits pendant la nuit.\n\nBien que l’eau soit froide, tu es content de pouvoir te laver aujourd’hui.\n\nTu utiliseras néanmoins une bassine pour économiser cette eau si précieuse.",
+      "img": "/assets/images/story2/bathroom.jpg"
     },
     {
       "id": 5,
-      "question": "La suite de ta matinée ne va pas en s’arrangeant."
+      "question": "La suite de ta matinée ne va pas en s’arrangeant.",
+      "img": "/assets/images/story2/bathroom.jpg"
     },
     {
       "id": 6,
-      "question": "Le domaine de l’alimentaire est également très impacté par cette crise.\n\nPresque plus aucun aliment n’est importé, il est devenu compliqué de conserver la nourriture, et tous les produits transformés que tu avais pour habitude de consommer n’existent plus."
+      "question": "Le domaine de l’alimentaire est également très impacté par cette crise.\n\nPresque plus aucun aliment n’est importé, il est devenu compliqué de conserver la nourriture, et tous les produits transformés que tu avais pour habitude de consommer n’existent plus.",
+      "img": "/assets/images/story2/fields.jpg"
     },
     {
       "id": 7,
-      "question": "Il faut alors retourner aux bonnes vieilles méthodes d’antan, cultiver sa propre nourriture."
+      "question": "Il faut alors retourner aux bonnes vieilles méthodes d’antan, cultiver sa propre nourriture.",
+      "img": "/assets/images/story2/fields.jpg"
     },
     {
       "id": 8,
-      "question": "Cette année l’hiver a été rude, des périodes de gels ont affecté tes récoltes.\n\nPar conséquent, tu es contraint de sauter le petit déjeuner."
+      "question": "Cette année l’hiver a été rude, des périodes de gels ont affecté tes récoltes.\n\nPar conséquent, tu es contraint de sauter le petit déjeuner.",
+      "img": "/assets/images/story2/fields.jpg"
     },
     {
       "id": 9,
-      "question": "Après une longue journée de travail dans ton champ, tu rentres à la maison."
+      "question": "Après une longue journée de travail dans ton champ, tu rentres à la maison.",
+      "img": "/assets/images/story2/fields.jpg"
     },
     {
       "id": 10,
-      "question": "Ta femme est bien malade, ça n’est sûrement qu’un petit rhume, mais l’absence de médicaments le rend difficile à vivre."
+      "question": "Ta femme est bien malade, ça n’est sûrement qu’un petit rhume, mais l’absence de médicaments le rend difficile à vivre.",
+      "img": "/assets/images/story2/sick-woman.jpg"
     },
     {
       "id": 11,
-      "question": "Il y a toujours des médecins qui ont recours à des remèdes naturels, seulement, ils sont très peu nombreux et celui de ta ville se trouve trop loin de chez toi."
+      "question": "Il y a toujours des médecins qui ont recours à des remèdes naturels, seulement, ils sont très peu nombreux et celui de ta ville se trouve trop loin de chez toi.",
+      "img": "/assets/images/story2/sick-woman.jpg"
     },
     {
       "id": 12,
-      "question": "Car oui, comme tu peux le deviner il n’y a plus de transports, du moins ceux-ci ne sont plus accessibles au peuple car devenus trop coûteux.\n\nTu décides alors de sacrifier un peu de tes récoltes afin de lui préparer un repas qui va lui permettre de lui redonner un peu de force, puis tu la laisses se reposer."
+      "question": "Car oui, comme tu peux le deviner il n’y a plus de transports, du moins ceux-ci ne sont plus accessibles au peuple car devenus trop coûteux.\n\nTu décides alors de sacrifier un peu de tes récoltes afin de lui préparer un repas qui va lui permettre de lui redonner un peu de force, puis tu la laisses se reposer.",
+      "img": "/assets/images/story2/soup.jpg"
     },
     {
       "id": 13,
-      "question": "Désormais, la nuit tombe et il fait très froid.\n\nTu n’as pas le choix que d’allumer un feu dans une cheminée pour apporter de la chaleur à ta maison et mettre au chaud ta femme."
+      "question": "Désormais, la nuit tombe et il fait très froid.\n\nTu n’as pas le choix que d’allumer un feu dans une cheminée pour apporter de la chaleur à ta maison et mettre au chaud ta femme.",
+      "img": "/assets/images/story2/living-room.jpg"
     }
   ]
 }
