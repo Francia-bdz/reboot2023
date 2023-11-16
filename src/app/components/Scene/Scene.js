@@ -12,7 +12,10 @@ export default function Scene({ scene, response }) {
           objectFit="cover"
         />
       </div>
-      <div className={styles.bubble}>
+      <div className={styles.bubbleBackground}>
+
+        </div>
+        <div className={styles.bubble}>
         {response ? <p>{response}</p> : <p>{scene.question}</p>}
       </div>
     </div>
